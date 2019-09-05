@@ -3,7 +3,12 @@ background-color:yellow;
 }
 
 h1{
-color:yellow;
+color:brown;
 -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+font-family:"na";
+}
+@font-face {
+font-family: "na";
+src: url("na.otf");
 }
