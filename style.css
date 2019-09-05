@@ -5,3 +5,10 @@ background-color:yellow;
 h1{
 color:white;
 }
+.element {
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
