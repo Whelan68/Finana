@@ -3,5 +3,7 @@ background-color:yellow;
 }
 
 h1{
-color:purple;
+color:yellow;
+-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
