@@ -3,8 +3,8 @@ background-color:yellow;
 }
 
 h1{
-color:brown;
--webkit-text-stroke-width: 1px;
+color:red;
+-webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
 font-family:"na";
 }
