@@ -1,2 +1,2 @@
 # Finana
-Finances illustrated nationally allowing nonprofits automation
+Finances Illustrated Nationally Allowing Nonprofits Automation
