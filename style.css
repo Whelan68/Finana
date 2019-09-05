@@ -10,6 +10,9 @@ color:red;
     -webkit-text-stroke-color: black;
 font-family:"na";
 }
+h2{
+text-align:center;
+}
 @font-face {
 font-family: "na";
 src: url("na.otf");
