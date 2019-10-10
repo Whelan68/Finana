@@ -7,26 +7,40 @@
 	<body>
 	<table>
 			<tr>
-				<td>1
-				</td>
-				<td>2
-				</td>
+				<td class="hat">Hat</td>
+				<td class="cost hat">2</td>
+				<td><button onclick="add('hat')">Add to cart</button></td>
 			</tr>
 			<tr>
-				<td>3
-				</td>
+				<td>Banana</td>
+				<td class="cost">3</td>
+				<td><button>Add to cart</button></td>
 			</tr>
 			<tr>
-				<td>4
-				</td>
+				<td>Shoe</td>
+				<td class="cost">3</td>
+				<td><button>Add to cart</button></td>
 			</tr>
 			<tr>
-				<td>5
-				</td>
+				<td>BigMac</td>
+				<td class="cost">3</td>
+				<td><button>Add to cart</button></td>
 			</tr>
 		</table>
 		<script>
-		
+			var costEls = document.getElementsByClassName("cost");
+			var total = 0;
+			
+			for(var i=0; i<costEls.length;i++){
+				var holder = costEls[i].textContent;
+				total += parseInt(holder);
+			}
+			alert(total);
+			function add(className){
+				var item = document.getElementsByClassName(className);
+				var cost = item[1];
+			}
 		</script>
 	</body>
 </html>
+//Use a for loop 
