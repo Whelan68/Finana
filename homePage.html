@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<style>
-			body{background-color: yellow;}
+			<link rel="stylesheet" href="style.css">
 		</style>
 	</head>
 	<body>
@@ -30,7 +30,7 @@
 			</tr>
 		
 			</table>
-		</div>
+	</div>
 		<script>
 			var costEls = document.getElementsByClassName("cost");
 			var total = 0;
@@ -39,7 +39,7 @@
 				var holder = costEls[i].textContent;
 				total += parseInt(holder);
 			}
-			alert(total);
+			//alert(total);
 			function add(className){
 				var item = document.getElementsByClassName(className);
 				var cost = item[1];
