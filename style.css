@@ -1,6 +1,11 @@
 body{
 background-color:yellow;
 }
+#invinDiv{
+	background-color:pink;
+	width:100%;
+	text-align:center;
+}
 #entry{
 	text-align:center;
 }
