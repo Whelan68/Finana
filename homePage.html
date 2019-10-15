@@ -1,11 +1,12 @@
 <html>
 	<head>
-		<style>
-			body{background-color: yellow;}
-		</style>
+	<link rel="stylesheet" href="style.css">
+		
 	</head>
 	<body>
-	<table>
+	<div id="invinDiv">
+		<table>
+		
 			<tr>
 				<td class="hat">Hat</td>
 				<td class="cost hat">2</td>
@@ -26,16 +27,18 @@
 				<td class="cost">3</td>
 				<td><button>Add to cart</button></td>
 			</tr>
-		</table>
+		
+			</table>
+	</div>
 		<script>
 			var costEls = document.getElementsByClassName("cost");
 			var total = 0;
-			
+			//Use a for loop 
 			for(var i=0; i<costEls.length;i++){
 				var holder = costEls[i].textContent;
 				total += parseInt(holder);
 			}
-			alert(total);
+			//alert(total);
 			function add(className){
 				var item = document.getElementsByClassName(className);
 				var cost = item[1];
@@ -43,4 +46,3 @@
 		</script>
 	</body>
 </html>
-//Use a for loop 
